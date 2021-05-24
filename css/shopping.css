@@ -1,0 +1,214 @@
+main{
+    background-image:url(/img/d4mzgz6-759ea18e-d6bc-4757-a01a-afe3077fccab.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+@media screen and (min-width:768px) {
+    section #jwel{
+        background-size: cover;
+   height: 52vh;
+}
+    main{
+        height: 50vh;
+    
+    background-size: cover;
+    
+}
+}
+@media screen and (max-width:420px) and (min-width:280px){
+    header h5{
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:420px) and (min-width:280px){
+
+    #md h2 {
+        position: relative;
+        margin-left: 2.5rem;
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    #md p{
+     
+        position: relative;
+        margin-left: 3rem;
+        padding-top: 2rem;  
+        font-size: 12px;
+        margin-bottom: 10px;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+    }
+}
+
+main #md h2{
+    position: relative;
+    margin-left: 3rem;
+    padding-top: 2rem;
+
+} main #md p{
+    position: relative;
+    margin-left: 3rem;
+    padding-bottom: 1.5rem;
+}
+main  a{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-style:groove; 
+    position: relative;
+    margin-left: 3rem;
+  
+
+}
+
+main #md a::after{
+    content: "\27f6";
+    width: 5px;
+    position: relative;
+    padding-left: 8px;;
+}
+section p::after{
+    content: "\27f6";
+    width: 5px;
+    position: relative;
+    padding-left: 8px;
+}
+section h1::after{
+    content: "";
+    height: 3px;
+    margin: auto 20px ;
+    width: 30%;
+    background-color: brown;
+}
+section h1{
+margin-bottom: 3rem;    
+
+}
+section .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .top-left h5, .top-left p {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  #jwel h5,#jwel p{
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+#jwel{
+   background-image: url(/img/Mixing-Silver-and-Gold-Jewelry-How-to-Do-it-Right.jpg);
+   background-size: cover;
+   height: 52vh;
+   
+}
+section #jwel h5{
+   padding-top: 10px;
+}
+
+article h1{
+    text-align: center;
+}
+article #artt p{
+
+   background-color: rgba(0, 0, 0, 0.1);
+   padding: 10px;
+}
+
+article .fa{
+    float:right ;
+    font-size: 20px;
+}
+
+footer h5{
+    padding-top: 10px;
+}
+footer #links  ul li {
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+footer #links  ul  {
+    
+    list-style: none;
+    font-weight: bolder;
+   
+    position:relative;
+    padding-left: 15px !important;
+}
+footer #links ul li a{
+    color: black;
+}
+footer #links ul li a:hover{
+   text-decoration: none;
+}
+footer #social ul{
+    list-style: none;
+    padding-left: 15px;
+}
+footer #social ul li{
+    display:inline-block;
+    padding-inline-end:5px;
+    color: black;
+    font-weight: bolder;
+}
+footer #social ul li a{
+    color: black;
+}
+footer #social ul li a:hover{
+    text-decoration: none;
+}
+footer h5{
+    font-size: 16px;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+footer .fa{
+    color: black;
+    padding-left: 8px;
+    font-size: 18px;
+}
+@media screen and (max-width:420px) and (min-width:280px){
+    article h1{
+        font-size: 1.5rem;
+    }
+    #jwel {
+        height: 40vh;
+    }
+    footer #social ul{
+     
+        text-align: center;
+        padding-left: 15px;
+    
+     }
+ footer #links ul{
+    font-weight: bolder;
+    text-align: center;
+
+ }
+ footer h5{
+     text-align: center;
+     font-weight: bolder;
+ }
+ footer #social ul li{
+  flex-direction: column;
+  font-weight: bolder;
+ }
+ #social a .fa{
+     font-size: 20px;
+     text-align: center;
+ }
+ section h1{
+    font-size: 1.5rem;  
+    
+    }
+
+}
